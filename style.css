@@ -1,0 +1,190 @@
+@font-face {
+    font-family:"Circular" ;
+    src: url(Font/AvenirLTStd-BookOblique.otf);
+}
+.child{
+    background-color: #121212;
+    border-radius: 8px;
+}
+.parent{
+    padding: 8px;
+    display: grid;    
+    grid-template-columns: 280px 1000px;
+    grid-template-rows: 115px 502px;
+    column-gap: 8px;
+    row-gap: 8px;   
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.two{
+    grid-row: span 2;
+    background-color: #1C1C1C;
+}
+.one{
+    padding: 20px;
+    font-size: 20px;
+    font-family: "Cricular";
+    background-color: #121212;
+}
+.a {
+    color: #CACACA;  
+}
+
+.a i{
+    margin-right:20px ;
+    margin-top: 10px;
+}
+.a:hover{
+    text-decoration: none;
+    color: #CACACA;
+}
+
+#right {
+    background-color: #090909;
+    border-radius: 50%;
+    color: #CACACA;
+}
+#left{
+    background-color: #090909;
+    border-radius: 50%;
+    color: #CACACA;
+}
+nav{
+    background-color: #101010;
+}
+.three{
+    background-color: #121212;
+}
+#login{
+    background-color: #F6F6F6;
+    color: black;
+    border-radius: 25px;
+    width: 115px;
+    padding: 10px;
+    text-align: center;
+}
+
+#signup{
+    color: #a1a1a1
+}
+#signup:hover{
+    color:#CACACA;
+}
+.container{
+    margin-left: 20px;
+
+}
+.container a{
+    color: #F6F6F6;
+}
+.container  a:hover{
+    color: #EFECEA;
+}
+.container  p:hover{
+    color: #EFECEA;
+    text-decoration: underline;
+}
+.two{
+    overflow-x: hidden;
+}
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#library-div-1{
+    background-color: #242424;
+    color: #FFFFFF;
+    border-radius: 10px;
+   
+}
+#podcast{
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #242424;
+    color: #FFFFFF;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#three{
+    border-radius: 10px;
+    background-color: #121212;
+}
+.three #lib{
+    width: 100%;
+    height: 280px;
+    overflow-y: scroll;
+    background-color: #121212;
+    margin-bottom: 20px;
+}
+nav a:hover{
+    color: #FFFFFF;
+}
+.three a:hover{
+    text-decoration: none;
+}
+nav a{
+    color: #FFFFFF;
+}
+#lib a{
+    background-color: #FFFFFF;
+    width: fit-content;
+    border-radius: 25px;
+    color: #090909;
+}
+#pod{
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #242424;
+    color: #FFFFFF;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#play{
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #242424;
+    color: #FFFFFF;
+}
+small{
+    color: #FFFFFF;
+    padding-left: 20px;
+}
+#eng{
+    margin-left: 30px;
+    margin-top: 20px;
+    color: #FFFFFF;
+    border:1px solid #FFFFFF;
+    border-radius: 25px;
+}
+.four{
+    background: linear-gradient(to right, #AE2996, #8061C5,#5199F3);
+    grid-column: span 2;
+    height: 45px;
+    margin-bottom: 0px;
+}
+.four nav{
+    background: linear-gradient(to right, #AE2996, #8061C5,#5199F3);
+}
+
+.four nav #login {
+    background-color: #F6F6F6;
+    color: black;
+    border-radius: 25px;
+    width: 115px;
+    padding: 10px;
+    text-align: center;
+}
+::-webkit-scrollbar{
+    width: 15px;
+    height: 30px;
+}
+::-webkit-scrollbar-track{
+    background-color: #121212 ;
+    
+}
+::-webkit-scrollbar-thumb{
+    background: #898989;
+}
+
+/*SignUp*/
